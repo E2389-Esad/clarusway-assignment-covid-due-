@@ -1,0 +1,7 @@
+num = int(input("Please enter a number : "))
+variable = num
+num_list = list(str(num))
+if int(num_list[0]) ** 3 + int(num_list[1]) ** 3 + int(num_list[2]) ** 3 == variable : 
+    print("Thats an armstrong number!")
+else :
+    print("That's not an armstrong number")
